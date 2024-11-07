@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.homebody { 
+    background-color: #C8D4E6;
+    background-image: url(Afbeeldingen/Home.jpg);
+    background-size: cover;
+}
+
+.overbody {
+    background-color: #C8D4E6;
+    background-image: url(Afbeeldingen/over.jpg);
+    
+}
+
+.doneerbody {
+    background-color: #C8D4E6;
+    background-image: url(Afbeeldingen/home-2.jpg);
+}
+
+/* off screen menu */
+.off-screen-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: start;
+    background-color: #113047;
+    height: 100vh;
+    width: 55%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    font-size: 2em;
+    transition: 350ms ease;
+}
+
+.off-screen-menu ul {
+    margin-top: 3em;
+}
+
+.off-screen-menu li {
+    margin-top: 0.3em;
+}
+
+.off-screen-menu a {
+    color: #C8D4E6;
+}
+
+
+.off-screen-menu.active {
+    right: 0;
+    
+}
+
+/*ham menu icoon*/
+.ham-menu {
+    position: fixed;
+    height: 1.5em;
+    width: 2em;
+    transition: 350ms ease;
+    
+}
+
+.ham-menu.active {
+    transform: rotate(90deg);
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+
+/* Home */
+h1 {
+    font-size: 6vh;
+    margin-left: 1em;
+    margin-top: 4em;
+    width: 5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Katboot {
+    margin-left: 0.3em;
+    margin-top: 6em;
+    height: 19em;
+    width: 24em;
+}
+
+.vijver-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 11.5em;
+    
+    
+}
+
+.blokje-1 {
+    background-color: #113047;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+}
+
+.blokje-2 {
+    background-color: #113047;
+    margin-top: 5em;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+   
+}
+
+.lees-meer {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    padding: 0.7em;
+    margin-left: 13.4em;
+    background-color: #C8D4E6;
+    border-radius: 1em;
+    color: black;
+    text-decoration: none;
+    
+}
+
+/*over*/
+.katbutton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+.katbutton li {
+    padding: 0.7em;
+    background-color: rgb(185, 9, 9);
+    margin-top: 5em;
+    margin-right: 1em;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.blokje-3 {
+    background-color: #113047;
+    padding: 1em;
+    margin-top: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+}
+
+.blokje-4 {
+    background-color: #113047;
+    padding: 1em;
+    margin-top: 7.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+}
+
+/*Doneer pagina*/
+.vijver-doneer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4.5em;
+}
+
+.blokje-5 {
+    background-color: #113047;
+    padding: 0.6em;
+    margin-top: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+}
+
+.blokje-6 {
+    background-color: #113047;
+    margin-top: 4em;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    color: white;
+    
+}
+
+.doneer-button {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 14em;
+    background-color: #C8D4E6;
+    border-radius: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.reserveer-button {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 12em;
+    background-color: #C8D4E6;
+    border-radius: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+/*footer*/ 
+footer {
+    margin-top: 4em;
+    margin-left: 3em;
+    
+}
+
+
